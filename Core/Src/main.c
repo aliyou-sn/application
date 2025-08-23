@@ -119,7 +119,7 @@ int main(void)
 	    HAL_Delay(200);    //1 Sec delay
 	    HAL_GPIO_WritePin( GPIOD, GPIO_PIN_2, GPIO_PIN_RESET );
 	    HAL_Delay(200);  //1 Sec delay
-	    printf("Blinking from fucking App\n");
+	    printf("Blinking, fuck you STM\n");
 
   }
   /* USER CODE END 3 */
