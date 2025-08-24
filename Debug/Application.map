@@ -2377,8 +2377,9 @@ LOAD /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.id
 .rodata         0x0800a2cc       0x58
                 0x0800a2cc                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0800a2cc       0x2c ./Core/Src/main.o
+ .rodata        0x0800a2cc       0x2a ./Core/Src/main.o
  *(.rodata*)
+ *fill*         0x0800a2f6        0x2 
  .rodata.AHBPrescTable
                 0x0800a2f8       0x10 ./Core/Src/system_stm32f1xx.o
                 0x0800a2f8                AHBPrescTable
