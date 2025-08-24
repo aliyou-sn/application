@@ -119,7 +119,7 @@ int main(void)
 	    HAL_Delay(1000);    //1 Sec delay
 	    HAL_GPIO_WritePin( GPIOD, GPIO_PIN_2, GPIO_PIN_RESET );
 	    HAL_Delay(1000);  //1 Sec delay
-	    printf("Hey Babe, I love you \n");
+	    printf("Hey Babe, Fuck you \n");
 
   }
   /* USER CODE END 3 */
