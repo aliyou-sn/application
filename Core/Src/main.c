@@ -116,10 +116,10 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	    HAL_GPIO_WritePin( GPIOD, GPIO_PIN_2, GPIO_PIN_SET );
-	    HAL_Delay(2000);    //1 Sec delay
+	    HAL_Delay(1000);    //1 Sec delay
 	    HAL_GPIO_WritePin( GPIOD, GPIO_PIN_2, GPIO_PIN_RESET );
-	    HAL_Delay(2000);  //1 Sec delay
-	    printf("Blinking, fuck you STM\n");
+	    HAL_Delay(1000);  //1 Sec delay
+	    printf("Hey Babe, I love you \n");
 
   }
   /* USER CODE END 3 */
